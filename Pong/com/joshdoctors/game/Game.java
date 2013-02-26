@@ -20,7 +20,7 @@ public class Game extends JFrame implements Runnable
    public static boolean pauseGame=false,resumeGame=false,reverseControls=false;
    public static int rotation=0;
    public static Thread gameloop;
-   public static boolean inMenu=true;
+   public static boolean inMenu=false;//by default this should be true but I't will remain 'off' until it has been completed
    public static Menu menu;
  
     //public Thread thread = new Thread(this);

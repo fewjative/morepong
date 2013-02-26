@@ -72,7 +72,7 @@ public class Menu
 		{
 		   g.setFont(new Font("tahoma",Font.BOLD,72));
 	        g.setColor(new Color(255,255,255));
-	        g.drawString("Re_Pong",345, 100);
+	        g.drawString("More_Pong",345, 100);
 	        
 			if(hoverOnPlay)
 				g.setColor(new Color(0,255,0));
